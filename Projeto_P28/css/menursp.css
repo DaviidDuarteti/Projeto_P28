@@ -1,0 +1,52 @@
+#btt_menu{
+    display: none;
+  
+}
+
+
+label{
+    padding: 10px;
+    color: #6d5d5d;
+    font-size: 50px;
+    top: -10px;
+    left: 90%;
+    margin-left: -25px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    transition: all 3s;
+}
+
+
+
+
+@media screen and (max-width: 800px){
+    
+  
+    label{
+        display: block;
+    
+    }
+
+    nav{
+        display: none;
+        
+       
+    }
+
+    #btt_menu:checked ~ nav{
+        display: block;
+      
+        
+      
+    }
+      nav ul{
+        float: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+   
+}
